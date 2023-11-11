@@ -12,7 +12,7 @@ import ParticleBg from "./ParticleBg";
 const Hero = () => {
   return (
     <>
-      <ParticleBg />
+      {/* <ParticleBg /> */}
 
       <div className="h-[auto]  m-auto  py-[6vh]  pb-[12vh] w-[95vw] max-w-[1280px]">
         <div className="w-[70%] my-[4rem] m-auto w- ">

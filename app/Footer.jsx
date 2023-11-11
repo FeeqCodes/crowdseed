@@ -3,7 +3,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className=" text-[#000000] w-full h-[15vh]  py-5  px-[20px] bg-white flex items-center justify-between">
+    <div className="mt-20 relative z-10 text-[#000000] w-full h-[15vh]  py-5  px-[20px] bg-white flex items-center justify-between">
       <span className="text-[1.2rem] ">
         <Image width={150} height={100} alt="" src="/Group 16.png" />
       </span>

@@ -10,12 +10,15 @@
   },
   "dependencies": {
     "framer-motion": "^10.16.4",
+    "langchain": "^0.0.185",
     "locomotive-scroll": "^5.0.0-beta.8",
     "next": "14.0.1",
+    "openai": "^4.17.3",
     "react": "^18",
     "react-dom": "^18",
     "react-fast-marquee": "^1.6.2",
     "react-particles": "^2.12.2",
+    "reactjs-popup": "^2.0.6",
     "tsparticles": "^2.12.0"
   },
   "devDependencies": {
