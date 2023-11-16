@@ -1,6 +1,6 @@
-import DisplayCampaigns from '@/app/components/DisplayCampaigns';
-import Sidebar from '@/app/components/Sidebar'
 import React from 'react'
+import DisplayCampaigns from '../../components/DisplayCampaigns';
+import Sidebar from '../../components/Sidebar';
 
 const Dashboard = () => {
   return (
@@ -9,7 +9,7 @@ const Dashboard = () => {
         <Sidebar />
 
         <div className='w-[100%]'>
-          <DisplayCampaigns 
+          <DisplayCampaigns
             title="All Campaigns"
 
           />
@@ -18,5 +18,9 @@ const Dashboard = () => {
     </>
   );
 }
+
+
+
+
 
 export default Dashboard;

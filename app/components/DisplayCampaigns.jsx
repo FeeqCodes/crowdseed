@@ -1,7 +1,9 @@
 import React from 'react'
 import CampaignCards from './CampaignCards';
 
-const DisplayCampaigns = ({title}) => {
+const DisplayCampaigns = ({title,}) => {
+
+  
   return (
     <>
       <div>
@@ -9,16 +11,14 @@ const DisplayCampaigns = ({title}) => {
           {title}
         </h1>
         <div className="flex justify-between flex-wrap mt-[20px] gap-[20px]">
-          
-            {/* <p className="text-[#818183] font-semibold text-[14px] leading-[30px]">
+          {/* <p className="text-[#818183] font-semibold text-[14px] leading-[30px]">
               No Campaigns Found
             </p> */}
-          
-              <CampaignCards />
-              <CampaignCards />
-              <CampaignCards />
-              <CampaignCards />
-            
+
+          <CampaignCards />
+          <CampaignCards />
+          <CampaignCards />
+          <CampaignCards />
         </div>
       </div>
     </>
@@ -26,3 +26,13 @@ const DisplayCampaigns = ({title}) => {
 }
 
 export default DisplayCampaigns
+
+
+
+
+
+
+
+
+
+

@@ -10,6 +10,7 @@ import Link from 'next/link';
 
 
 const Navbar = () => {
+  
   return (
     <nav className=" sticky top-0 z-10  text-[#000000] w-full  py-4  px-[20px] bg-white backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200 font-medium">
       <div className=" flex gap-[20px] justify-between items-center">
@@ -44,9 +45,9 @@ const Navbar = () => {
         </span> */}
 
         <div className="flex gap-[20px]">
-          <button className="py-[12px] px-4  text-white rounded-[5px] bg-gradient-to-r from-blue-400 via-blue-600 to-blue-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium  text-sm  text-center mr-2 mb-2">
+          {/* <button className="py-[12px] px-4  text-white rounded-[5px] bg-gradient-to-r from-blue-400 via-blue-600 to-blue-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium  text-sm  text-center mr-2 mb-2">
             Connect wallet
-          </button>
+          </button> */}
           <Link href="/pages/dashboard" className="py-[12px] px-4  text-white rounded-[5px] bg-gradient-to-r from-blue-400 via-blue-600 to-blue-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium  text-sm  text-center mr-2 mb-2">
             Dashboard
           </Link>
@@ -58,3 +59,14 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+
+
+
+
+
+
+
+
+
+

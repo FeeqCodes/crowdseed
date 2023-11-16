@@ -3,6 +3,7 @@
 import CustomButton from "@/app/components/CustomButton";
 import FormField from "@/app/components/FormField";
 import Sidebar from "@/app/components/Sidebar";
+import Image from "next/image";
 import React from "react";
 
 
@@ -56,7 +57,9 @@ import React from "react";
               handleChange={(e) => handleFormFieldChange("description", e)}
             />
             <div className="flex w-full justify-start items-center p-4 bg-[#8c6dfd] h-[120px] rounded-[10px]">
-              <img
+              <Image
+                width={100}
+                height={100}
                 src="/assets/money.svg"
                 alt="money"
                 className="w-[40px] h-[40px] object-contain"
