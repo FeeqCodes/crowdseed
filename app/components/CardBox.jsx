@@ -10,9 +10,10 @@ const CardBox = () => {
           </div>
           <p className=" text-[14px] ">
             Visit [Your Decentralized Crowdfunding Platform Name] and click on
-            the "Sign Up" or "Register" button. Enter your basic information,
-            including your name, email address, and a secure password. Verify
-            your email address through the confirmation link sent to your inbox.
+            the &aposSign Up&apos or &aposRegister&apos button. Enter your basic
+            information, including your name, email address, and a secure
+            password. Verify your email address through the confirmation link
+            sent to your inbox.
           </p>
         </div>
       </div>
