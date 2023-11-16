@@ -1,11 +1,11 @@
 'use client'
 
-import CustomButton from "@/app/components/CustomButton";
-import FormField from "@/app/components/FormField";
-import Sidebar from "@/app/components/Sidebar";
+// import CustomButton from "@/app/components/CustomButton";
+
 import Image from "next/image";
 import React from "react";
-
+import Sidebar from "../../components/Sidebar";
+import FormField from "../../components/FormField"
 
 
 
@@ -84,11 +84,11 @@ import React from "react";
                 handleChange={(e) => handleFormFieldChange("image", e)}
               />
               <div className="flex justify-center items-center mt-[30px]">
-                <CustomButton
+                {/* <CustomButton
                   btnType="submit"
                   title="Create Campaign"
                   styles="bg-gradient-to-r from-blue-400 via-blue-600 to-blue-800"
-                />
+                /> */}
               </div>
             </div>
           </form>
