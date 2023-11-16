@@ -4,10 +4,6 @@ import Image from "next/image";
 import Cards from "./Cards";
 import CenterCard from "./CenterCard";
 
-
-
-
-
 const FirstSection = () => {
   return (
     <div className=" w-[95vw] max-w-[1280px] m-auto">
@@ -18,10 +14,10 @@ const FirstSection = () => {
           </h2>
           <p className="text-[#222] text-[18px] ">
             At CrowdSeed, we believe in the collective power of individuals,
-            organizations, and communities to drive positive change. We&apos;ve
+            organizations, and communities to drive positive change. We&apos;;ve
             harnessed the revolutionary potential of blockchain technology to
             create a crowdfunding platform that empowers you to be the catalyst
-            for a better world. Here, we&apos;l explore the key elements that
+            for a better world. Here, we&apos;;l explore the key elements that
             make our platform unique and how you can become a part of this
             transformative movement.
           </p>

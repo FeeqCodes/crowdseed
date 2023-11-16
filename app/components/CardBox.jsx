@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const CardBox = () => {
   return (
@@ -10,8 +10,8 @@ const CardBox = () => {
           </div>
           <p className=" text-[14px] ">
             Visit [Your Decentralized Crowdfunding Platform Name] and click on
-            the &aposSign Up&apos or &aposRegister&apos button. Enter your basic
-            information, including your name, email address, and a secure
+            the &apos;Sign Up&apos; or &apos;Register&apos; button. Enter your
+            basic information, including your name, email address, and a secure
             password. Verify your email address through the confirmation link
             sent to your inbox.
           </p>
@@ -19,6 +19,6 @@ const CardBox = () => {
       </div>
     </>
   );
-}
+};
 
-export default CardBox
+export default CardBox;

@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import Image from "next/image";
 import React from "react";
@@ -6,8 +6,6 @@ import Marquee from "react-fast-marquee";
 
 import { motion } from "framer-motion";
 import ParticleBg from "./ParticleBg";
-
-
 
 const Hero = () => {
   return (
@@ -26,9 +24,9 @@ const Hero = () => {
               Empower Change: Decentralized Crowdfunding for a Better World
             </h1>
             <p className="text-[18px] leading-normal text-center text-[white]  font-sans">
-              Join the movement that`&apos;`s redefining how positive change is
+              Join the movement that`&apos;;`s redefining how positive change is
               made. Our decentralized crowdfunding platform is more than just a
-              means to fund ideas; it`&apos;`s a catalyst for a better world
+              means to fund ideas; it`&apos;;`s a catalyst for a better world
             </p>
           </motion.div>
         </div>

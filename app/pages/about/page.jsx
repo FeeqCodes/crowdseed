@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const AboutPage = () => {
   return (
@@ -33,7 +33,7 @@ const AboutPage = () => {
             <p className="text-[18px]">
               Every project featured on our platform is a story of hope,
               resilience, and the human spirit. From grassroots organizations to
-              global initiatives, we&aposre committed to empowering those who
+              global initiatives, we&apos;re committed to empowering those who
               are making a tangible difference in the lives of others.
             </p>
           </div>
@@ -55,19 +55,19 @@ const AboutPage = () => {
               Together, We Make a Difference
             </h3>
             <p className="text-[18px]">
-              We invite you to join us in this noble journey. Whether you&aposre
-              a compassionate supporter, a visionary leader behind a cause, or
-              someone seeking to contribute, your involvement paves the way for
-              transformative change. Let&aposs stand together, hand in hand, and
-              make a lasting impact on the lives of those in need. Thank you for
-              being a part of our compassionate mission. With heartfelt
-              gratitude,
+              We invite you to join us in this noble journey. Whether
+              you&apos;re a compassionate supporter, a visionary leader behind a
+              cause, or someone seeking to contribute, your involvement paves
+              the way for transformative change. Let&apos;s stand together, hand
+              in hand, and make a lasting impact on the lives of those in need.
+              Thank you for being a part of our compassionate mission. With
+              heartfelt gratitude,
             </p>
           </div>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default AboutPage
+export default AboutPage;
